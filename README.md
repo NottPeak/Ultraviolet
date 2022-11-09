@@ -3,14 +3,14 @@
 
 <h1 align="center">Ultraviolet</h1>
 
-<p align="center">Advanced web proxy used for evading internet censorship or accessing websites in a controlled sandbox.<br><br>
+<p align="center">Advanced web  used for evading internet censorship or accessing websites in a controlled sandbox.<br><br>
 Ultraviolet works by intercepting HTTP requests with a service worker script that follows the <a href="https://github.com/tomphttp">TompHTTP</a> specifications</p>
 
 ## Features
 - CAPTCHA support along with hCAPTCHA support
 - URL encoding settings to further hide activity when using Ultraviolet
 - Configuration all done on the client-side via service-workers
-- Speed in comparison to other web proxies that fully proxy content
+- Speed in comparison to other web proxies that fully  content
 - Blacklist setting and more for easy hosting
 - Security in mind and leak prevention
 - Frequent updates to improve site support or fix security issues
@@ -31,9 +31,9 @@ Ultraviolet works by intercepting HTTP requests with a service worker script tha
 - Acorn.js
 
 ## Used by
-- [Incognito](https://github.com/caracal-js/Incognito), a popular web proxy service with focus on privacy
-- [Holy-Unblocker](https://github.com/titaniumnetwork-dev/Holy-Unblocker), a popular web proxy service focusing on bypassing web filters and more
-- [Hypertabs](titaniumnetwork.org/), a web proxy service using a PWA browser as its frontend
+- [Incognito](https://github.com/caracal-js/Incognito), a popular web  service with focus on privacy
+- [Holy-Unblocker](https://github.com/titaniumnetwork-dev/Holy-Unblocker), a popular web  service focusing on bypassing web filters and more
+- [Hypertabs](titaniumnetwork.org/), a web  service using a PWA browser as its frontend
 
 ## Table of Contents
 - [Installation And Setup](#installation-and-setup)
@@ -126,7 +126,7 @@ self.__uv$config = {
 | ------------- | ----------------------- |
 | Prefix | The prefix is the prefix that you want users to see. Ex: `https://example.com/service.` The default prefix is `service`. |
 | Bare | Bare Servers can run on directories. For example, if the directory was /bare/ then the bare origin would look like `http://example.org/bare/`. The bare origin is passed to clients. |
-| encodeUrl| EncodeUrl is how you want the URL a proxy site's visitors has to be encoded. Options include `Ultraviolet.codec.base64.encode`, `Ultraviolet.codec.plain.encode`, or `Ultraviolet.codec.xor.encode`. It is recommended that you use `xor` or `base64` as it hides the queries your visitors are searching and visiting.
+| encodeUrl| EncodeUrl is how you want the URL a  site's visitors has to be encoded. Options include `Ultraviolet.codec.base64.encode`, `Ultraviolet.codec.plain.encode`, or `Ultraviolet.codec.xor.encode`. It is recommended that you use `xor` or `base64` as it hides the queries your visitors are searching and visiting.
 | decodeURL | DecodeUrl is how you want the url to be decoded. It is recommended you keep it the same as `encodeUrl`. |
 | Handler | Handler is the path to the UV handler. The default name and path to this file is `static/uv/uv.handler.js`. |
 | Bundle | Bundle is the path to the UV bundle file. The default name and path to this file is `static/uv/uv.bundle.js`. |
